@@ -1,7 +1,8 @@
 import React, { useReducer } from 'react';
 import './App.css';
 
-import DataFetchingTwo from "./components/useReducer/DataFetchingTwo";
+import ClassTimer from './components/useRef/ClassTimer';
+import HookTimer from './components/useRef/HookTimer';
 
 // export const UserContext = React.createContext()
 // export const ChannelContext = React.createContext()
@@ -53,7 +54,12 @@ function App() {
       {/*  <ComponentC/>*/}
       {/*</CountContext.Provider>*/}
       {/*<DataFetchingOne/>*/}
-      <DataFetchingTwo/>
+      {/*<DataFetchingTwo/>*/}
+      {/*<ParentComponent/>*/}
+      {/*<Counter/>*/}
+      {/*<FocusInput/>*/}
+      <ClassTimer/>
+      <HookTimer/>
     </div>
   )
 }
