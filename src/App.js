@@ -1,8 +1,7 @@
 import React, { useReducer } from 'react';
 import './App.css';
 
-import ClassTimer from './components/useRef/ClassTimer';
-import HookTimer from './components/useRef/HookTimer';
+import UserForm from './components/customHook/UserForm';
 
 // export const UserContext = React.createContext()
 // export const ChannelContext = React.createContext()
@@ -58,8 +57,13 @@ function App() {
       {/*<ParentComponent/>*/}
       {/*<Counter/>*/}
       {/*<FocusInput/>*/}
-      <ClassTimer/>
-      <HookTimer/>
+      {/*<ClassTimer/>*/}
+      {/*<HookTimer/>*/}
+      {/*<DocTitleOne />*/}
+      {/*<DocTitleTwo />*/}
+      {/*<CounterOne />*/}
+      {/*<CounterTwo />*/}
+      <UserForm />
     </div>
   )
 }
